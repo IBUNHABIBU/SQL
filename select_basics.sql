@@ -9,3 +9,6 @@ SELECT name, population FROM world
 -- Question 3
 SELECT name, area FROM world
   WHERE area BETWEEN 200000 AND
+
+
+
