@@ -37,3 +37,23 @@ WHERE continent ='South America'
 SELECT name, ROUND(GDP/population,-3) AS per_capita_GDP FROM world
 WHERE GDP>1000000000000
 
+-- Question 11
+SELECT name, capital
+  FROM world
+ WHERE LENGTH(name) = LENGTH(capital)
+
+-- Question 12
+SELECT name, capital
+FROM world
+WHERE LEFT(name,1) = LEFT(capital,1) and name<>capital 
+
+-- Question 13
+SELECT name
+   FROM world
+WHERE name LIKE '%a%'
+AND name LIKE '%e%'
+AND name LIKE '%i%'
+AND name LIKE '%o%'
+AND name LIKE '%u%'
+AND name NOT LIKE '% %'
+
