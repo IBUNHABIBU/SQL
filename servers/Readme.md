@@ -11,6 +11,8 @@
 ## change user
 ` su - juma `
 
+`exit` # exit user
+
 `ls -la` # list all files including hidden files
 `ls -l` # list all files in long format
 `ls -lh` # list all files in long format with human readable file sizes
