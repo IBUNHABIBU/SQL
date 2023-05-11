@@ -11,6 +11,7 @@
 ## change user
 ` su - juma `
 ` sudo su - ` # change to root user
+- `sudo userdel -r juma` # delete user
 
 `exit` # exit user
 
