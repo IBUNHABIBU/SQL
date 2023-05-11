@@ -10,6 +10,7 @@
 
 ## change user
 ` su - juma `
+` su - ` # change to root user
 
 `exit` # exit user
 
@@ -21,6 +22,8 @@
 
 ## change directory
 ` cd /home/juma `
+
+`pwd` # present working directory
 
 ## create file
 ` touch file.txt `
@@ -34,8 +37,12 @@
 ## copy directory
 ` cp -r folder folder2 `
 
+home directory includes all users 
+
 ## move file
 ` mv file.txt css/ `
 
 `rm  file.txt` # remove file
 `rm -r  folder` # remove folder
+
+`sudo chmod 777 -R folder` # change folder permissions
