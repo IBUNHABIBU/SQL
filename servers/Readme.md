@@ -34,3 +34,6 @@
 
 ## move file
 ` mv file.txt css/ `
+
+`rm  file.txt` # remove file
+`rm -r  folder` # remove folder
