@@ -10,7 +10,7 @@
 
 ## change user
 ` su - juma `
-` su - ` # change to root user
+` sudo su - ` # change to root user
 
 `exit` # exit user
 
